@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "webAppName": {
+            "value": "sluperarm"
+        },
+        "hostingPlanName": {
+            "value": "sluperarm-plan"
+        },
+        "hostingEnvironment": {
+            "value": ""
+        },
+        "location": {
+            "value": "West US"
+        },
+        "sku": {
+            "value": "Free"
+        },
+        "workerSize": {
+            "value": "0"
+        },
+        "serverFarmResourceGroup": {
+            "value": "sluperarm"
+        },
+        "skuCode": {
+            "value": "F1"
+        },
+        "subscriptionId": {
+            "value": "c5b2facb-b2c8-4a55-a0cb-f57ae3c1493d"
+        }
+    }
+}
